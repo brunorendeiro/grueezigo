@@ -1,6 +1,6 @@
-export type Category = 'greetings' | 'days' | 'politeness' | 'everyday' | 'shopping'
+export type Category = 'greetings' | 'days' | 'politeness' | 'everyday' | 'work' | 'shopping'
 
-export const categories: Category[] = ['greetings', 'days', 'politeness', 'everyday', 'shopping']
+export const categories: Category[] = ['greetings', 'days', 'politeness', 'everyday', 'work', 'shopping']
 
 export type Phrase = {
   id: string
@@ -61,6 +61,17 @@ export const phrases: Phrase[] = [
   { id: 'alles-guet', category: 'everyday', swissGerman: 'Alles guet?', hochdeutsch: 'Alles gut?', pt: 'Está tudo bem?', en: 'Everything OK?' },
   { id: 'kei-ahnig', category: 'everyday', swissGerman: 'Ich ha kei Ahnig', hochdeutsch: 'Ich habe keine Ahnung', pt: 'Não faço ideia', en: 'I have no idea' },
   { id: 'klar', category: 'everyday', swissGerman: 'Klar!', hochdeutsch: 'Klar!', pt: 'Claro! / Com certeza!', en: 'Sure! / Of course!' },
+
+  // Work & workplace goodbyes
+  { id: 'bis-glii', category: 'work', swissGerman: 'Bis glii', hochdeutsch: 'Bis gleich', pt: 'Até já', en: 'See you in a bit' },
+  { id: 'bis-noecher', category: 'work', swissGerman: 'Bis nächer', hochdeutsch: 'Bis nachher', pt: 'Até logo mais', en: 'See you later (today)' },
+  { id: 'bis-morn-schaffe', category: 'work', swissGerman: 'Bis morn', hochdeutsch: 'Bis morgen', pt: 'Até amanhã', en: 'See you tomorrow' },
+  { id: 'schone-fiirabig', category: 'work', swissGerman: 'Schöne Fiirabig', hochdeutsch: 'Schönen Feierabend', pt: 'Bom fim de dia de trabalho', en: 'Enjoy the rest of your evening (said when leaving work)' },
+  { id: 'machs-guet', category: 'work', swissGerman: 'Machs guet', hochdeutsch: 'Mach’s gut', pt: 'Fica bem (despedida informal)', en: 'Take care (informal goodbye)' },
+  { id: 'guet-schaffe', category: 'work', swissGerman: 'Guet Schaffe', hochdeutsch: 'Arbeite gut / Schaff gut', pt: 'Bom trabalho', en: 'Have a good work session' },
+  { id: 'mahlzit', category: 'work', swissGerman: 'Mahlzit', hochdeutsch: 'Mahlzeit', pt: 'Bom apetite (dito à hora de almoço)', en: 'Enjoy your meal (said around lunchtime)' },
+  { id: 'en-guete', category: 'work', swissGerman: 'En Guete', hochdeutsch: 'Guten Appetit', pt: 'Bom apetite', en: 'Enjoy your meal' },
+  { id: 'gang-go-zmittag', category: 'work', swissGerman: 'Ich gang go Zmittag', hochdeutsch: 'Ich gehe zu Mittag essen', pt: 'Vou almoçar', en: 'I’m going to lunch' },
 
   // Shopping & café
   { id: 'ich-hatt-gern', category: 'shopping', swissGerman: 'Ich hätt gern...', hochdeutsch: 'Ich hätte gern...', pt: 'Eu gostaria de...', en: 'I’d like...' },

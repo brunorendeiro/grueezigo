@@ -23,6 +23,7 @@ export const categoryLabels: Record<Locale, Record<Category, string>> = {
     days: 'Dias da semana',
     politeness: 'Cortesia',
     everyday: 'Dia a dia',
+    work: 'Trabalho',
     shopping: 'Compras & café',
   },
   en: {
@@ -30,6 +31,7 @@ export const categoryLabels: Record<Locale, Record<Category, string>> = {
     days: 'Days of the week',
     politeness: 'Politeness',
     everyday: 'Everyday',
+    work: 'Work',
     shopping: 'Shopping & café',
   },
   de: {
@@ -37,6 +39,7 @@ export const categoryLabels: Record<Locale, Record<Category, string>> = {
     days: 'Wuchetääg',
     politeness: 'Höflichkeit',
     everyday: 'Alltag',
+    work: 'Arbeit',
     shopping: 'Poscht & Kafi',
   },
 }
