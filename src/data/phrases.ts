@@ -25,6 +25,8 @@ export const phrases: Phrase[] = [
   { id: 'tschuss', category: 'greetings', swissGerman: 'Tschüss', hochdeutsch: 'Tschüss', pt: 'Tchau (informal)', en: 'Bye (informal)' },
   { id: 'bis-spater', category: 'greetings', swissGerman: 'Bis spöter', hochdeutsch: 'Bis später', pt: 'Até logo', en: 'See you later' },
   { id: 'bis-bald', category: 'greetings', swissGerman: 'Bis bald', hochdeutsch: 'Bis bald', pt: 'Até breve', en: 'See you soon' },
+  { id: 'ade', category: 'greetings', swissGerman: 'Ade', hochdeutsch: 'Auf Wiedersehen / Tschüss', pt: 'Adeus (despedida comum)', en: 'Bye (common everyday goodbye)' },
+  { id: 'uf-wiederlose', category: 'greetings', swissGerman: 'Uf Wiederlose', hochdeutsch: 'Auf Wiederhören', pt: 'Adeus (ao telefone)', en: 'Goodbye (on the phone)' },
 
   // Days of the week
   { id: 'montig', category: 'days', swissGerman: 'Mäntig', hochdeutsch: 'Montag', pt: 'Segunda-feira', en: 'Monday' },
@@ -61,6 +63,11 @@ export const phrases: Phrase[] = [
   { id: 'alles-guet', category: 'everyday', swissGerman: 'Alles guet?', hochdeutsch: 'Alles gut?', pt: 'Está tudo bem?', en: 'Everything OK?' },
   { id: 'kei-ahnig', category: 'everyday', swissGerman: 'Ich ha kei Ahnig', hochdeutsch: 'Ich habe keine Ahnung', pt: 'Não faço ideia', en: 'I have no idea' },
   { id: 'klar', category: 'everyday', swissGerman: 'Klar!', hochdeutsch: 'Klar!', pt: 'Claro! / Com certeza!', en: 'Sure! / Of course!' },
+  { id: 'es-fagt', category: 'everyday', swissGerman: 'Es fägt!', hochdeutsch: 'Das macht Spaß! / Das ist cool!', pt: 'É fixe! / Isto é divertido!', en: 'That’s fun! / That rocks!' },
+  { id: 'passt-scho', category: 'everyday', swissGerman: 'Passt scho', hochdeutsch: 'Passt schon', pt: 'Não faz mal / Está tudo bem assim', en: 'It’s fine / No worries' },
+  { id: 'was-gits-nois', category: 'everyday', swissGerman: 'Was gits Nöis?', hochdeutsch: 'Was gibt’s Neues?', pt: 'O que há de novo?', en: 'What’s new?' },
+  { id: 'genau', category: 'everyday', swissGerman: 'Genau', hochdeutsch: 'Genau', pt: 'Exatamente / Isso mesmo', en: 'Exactly / Right' },
+  { id: 'kes-ding', category: 'everyday', swissGerman: 'Kes Ding', hochdeutsch: 'Kein Ding', pt: 'Não é nada / Sem problema', en: 'No big deal' },
 
   // Work & workplace goodbyes
   { id: 'bis-glii', category: 'work', swissGerman: 'Bis glii', hochdeutsch: 'Bis gleich', pt: 'Até já', en: 'See you in a bit' },

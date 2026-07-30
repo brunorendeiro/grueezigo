@@ -85,7 +85,8 @@ footer a:hover { color: var(--accent); }
 @media (max-width: 560px) {
   .app-shell { padding: 22px 14px 44px; }
   header { flex-wrap: wrap; gap: 12px; }
-  .phrase-card { flex-wrap: wrap; }
+  .phrase-card { align-items: flex-start; padding: 14px; }
+  .phrase-text .swiss { font-size: 17px; }
 }
 
 .cookie-consent { position: fixed; z-index: 50; left: 20px; right: 20px; bottom: 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; max-width: 640px; margin: 0 auto; padding: 20px 22px; border-radius: 20px; background: var(--panel); box-shadow: var(--shadow); }
