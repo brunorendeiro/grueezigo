@@ -66,13 +66,13 @@ export default function App() {
   return (
     <div className="app-shell">
       <header>
-        <div className="brand">
+        <h1 className="brand">
           <div className="brand-mark">🇨🇭</div>
           <div>
             <strong>GrüeziGo</strong>
             <small>{t.brandTagline}</small>
           </div>
-        </div>
+        </h1>
         <div className="locale-switch">
           {locales.map(l => (
             <button key={l.id} className={l.id === locale ? 'active' : ''} onClick={() => changeLocale(l.id)}>
