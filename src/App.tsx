@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { phrases, categories, speakSwissGerman, type Category } from './data/phrases'
 import { detectLocale, locales, categoryLabels, ui, getTranslation, type Locale } from './i18n'
-import { getStoredConsent, loadAnalytics } from './analytics'
+import { getStoredConsent, loadAnalytics, loadAds } from './analytics'
 import CookieConsent from './CookieConsent'
 
 const LEARNED_KEY = 'grueezigo-learned'
@@ -27,7 +27,10 @@ export default function App() {
   useEffect(() => {
     setLocale(detectLocale())
     setLearned(loadLearned())
-    if (getStoredConsent() === 'granted') loadAnalytics()
+    if (getStoredConsent() === 'granted') {
+      loadAnalytics()
+      loadAds()
+    }
   }, [])
 
   const t = ui[locale]
