@@ -143,7 +143,6 @@ export default function App() {
       </div>
 
       <footer>
-        <a href="https://vibe-portfolio-one.vercel.app/">Created by Bruno Rendeiro</a>
         <span>{t.footerTagline}</span>
         <span className="powered-badge">⚡ Powered by AI</span>
       </footer>
