@@ -61,6 +61,7 @@ type UiStrings = {
   cookieBody: string
   cookieAccept: string
   cookieReject: string
+  adLabel: string
 }
 
 export const ui: Record<Locale, UiStrings> = {
@@ -81,6 +82,7 @@ export const ui: Record<Locale, UiStrings> = {
     cookieBody: 'Uso o Google Analytics e o Google AdSense para perceber quantas pessoas visitam este projeto. Aceitas cookies de análise e publicidade?',
     cookieAccept: 'Aceitar',
     cookieReject: 'Recusar',
+    adLabel: 'Publicidade',
   },
   en: {
     brandTagline: 'Everyday Swiss German phrases',
@@ -99,6 +101,7 @@ export const ui: Record<Locale, UiStrings> = {
     cookieBody: 'I use Google Analytics and Google AdSense to understand how many people visit this project. Do you accept analytics and advertising cookies?',
     cookieAccept: 'Accept',
     cookieReject: 'Reject',
+    adLabel: 'Advertisement',
   },
   de: {
     brandTagline: 'Schwiizerdütsch für de Alltag',
@@ -117,6 +120,7 @@ export const ui: Record<Locale, UiStrings> = {
     cookieBody: 'Ich verwende Google Analytics und Google AdSense, um zu verstehen, wie viele Menschen dieses Projekt besuchen. Akzeptierst du Analyse- und Werbe-Cookies?',
     cookieAccept: 'Akzeptieren',
     cookieReject: 'Ablehnen',
+    adLabel: 'Werbung',
   },
 }
 

@@ -77,6 +77,9 @@ header { display: flex; align-items: center; justify-content: space-between; gap
 .learn-toggle:hover { background: var(--accent-soft); color: var(--accent); }
 .learn-toggle.active { background: var(--success); color: #fff; }
 
+.ad-slot { margin-top: 26px; padding: 16px 18px; border-radius: 18px; background: var(--panel); box-shadow: var(--shadow-sm); }
+.ad-label { display: block; margin-bottom: 8px; color: var(--muted); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; text-align: center; }
+
 footer { display: flex; flex-direction: column; gap: 6px; margin-top: 54px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; text-align: center; }
 footer a { color: var(--muted); text-decoration: underline; }
 footer a:hover { color: var(--accent); }

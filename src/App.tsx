@@ -3,6 +3,7 @@ import { phrases, categories, speakSwissGerman, type Category } from './data/phr
 import { detectLocale, locales, categoryLabels, ui, getTranslation, type Locale } from './i18n'
 import { getStoredConsent, loadAnalytics, loadAds } from './analytics'
 import CookieConsent from './CookieConsent'
+import AdSlot from './AdSlot'
 
 const LEARNED_KEY = 'grueezigo-learned'
 
@@ -141,6 +142,8 @@ export default function App() {
           </div>
         ))}
       </div>
+
+      {filtered.length > 0 && <AdSlot locale={locale} />}
 
       <footer>
         <span>{t.footerTagline}</span>

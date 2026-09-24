@@ -40,8 +40,12 @@ export function loadAds() {
   script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4561414438757131`
   document.head.appendChild(script)
 
+  // Auto ads (enable_page_level_ads) stay off: their automatic placement ends up
+  // putting ads on thin/interactive screens with little or no publisher content,
+  // which violates AdSense policy. We use a manual ad unit instead, placed only
+  // where there is real textual content (see AdSlot.tsx).
   window.adsbygoogle = window.adsbygoogle || []
-  window.adsbygoogle.push({ google_ad_client: 'ca-pub-4561414438757131', enable_page_level_ads: true })
+  window.adsbygoogle.push({ google_ad_client: 'ca-pub-4561414438757131' })
 }
 
 export function setConsent(value: Consent) {
